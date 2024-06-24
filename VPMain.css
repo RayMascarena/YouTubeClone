@@ -1,0 +1,244 @@
+section {
+  margin-top: 75px;
+  margin-left: 14px;
+}
+
+.videoinfosection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 14px;
+  position: relative;
+  max-width: 670px;
+}
+
+.videotitle {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.profilesection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.profilepic {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.namesubsection {
+  display: inline-block;
+}
+
+.namesection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 550;
+  color: white;
+  margin-right: 6px;
+}
+
+.checkmark {
+  color: black;
+  border-radius: 20px;
+  height: 12px;
+  width: 12px;
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.subscribers {
+  color: rgb(200, 200, 200);
+  font-size: 12px;
+}
+
+.join {
+  margin-left: 20px;
+  border-radius: 25px;
+  padding: 8px 15px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe {
+  border-radius: 25px;
+  padding: 8px 15px;
+  background-color: white;
+  color: rgb(30, 30, 30);
+  border: none;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.videoactionssection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.thumbsup {
+  background-color: rgb(40, 40, 40);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: none;
+  padding: 1px 13px;
+  display: flex;
+  align-items: center;
+}
+
+.thumbsdown {
+  background-color: rgb(40, 40, 40);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
+  padding: 8px 13px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+}
+
+.thumbs {
+  height: 20px;
+}
+
+.likes,
+.sharetext,
+.savetext {
+  color: rgb(240, 240, 240);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 7px;
+}
+
+.sharebutton {
+  background-color: rgb(40, 40, 40);
+  border-radius: 25px;
+  border: none;
+  padding: 8px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+
+.shareicon,
+.saveicon {
+  height: 25px;
+}
+
+.savebutton {
+  background-color: rgb(40, 40, 40);
+  border-radius: 25px;
+  border: none;
+  padding: 8px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+
+.horizontalkebabbutton {
+  background-color: rgb(40, 40, 40);
+  border-radius: 25px;
+  border: none;
+  padding: 7px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+
+.horizontalkebabicon {
+  height: 15px;
+}
+
+.videodescriptionsection {
+  background-color: rgb(40, 40, 40);
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 12px 15px;
+}
+
+.viewstimesection {
+  display: flex;
+  flex-direction: row;
+}
+
+.views,
+.time {
+  font-size: 15px;
+  color: rgb(240, 240, 240);
+  font-weight: 550;
+  margin-right: 7px;
+}
+
+.descriptionsection {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  font-size: 15px;
+  color: rgb(240, 240, 240);
+  margin-top: 5px;
+}
+
+.more {
+  color: white;
+  font-size: 15px;
+}
+
+.commentssection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.comments {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.sortbybutton {
+  border: none;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.sortbytext {
+  color: rgb(240, 240, 240);
+  font-size: 15px;
+  margin-left: 7px;
+}
+
+.sortbyicon {
+  height: 20px;
+}

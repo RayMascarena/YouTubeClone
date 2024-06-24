@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  font-family: roboto, arial;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}

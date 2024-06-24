@@ -1,0 +1,106 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 100;
+}
+
+.leftsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hamburger {
+    height: 20px;
+    margin-left: 24px;
+    margin-right: 12px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.middlesection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.searchbar {
+    height: 32px;
+    width: 470px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+    background-color: black;
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.searchbar::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.search {
+    position: relative;
+    height: 17px;
+    margin-right: 20px;
+    margin-left: -30px;
+    border: 1px solid rgb(60, 60, 60);
+    padding: 10px 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(40, 40, 40);
+}
+
+.microphone {
+    height: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    padding: 11px;
+}
+
+.rightsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.kebob {
+    height: 15px;
+    margin-right: 18px;
+}
+
+.signin {
+    background-color: black;
+    color: #46acfd;
+    border: 1px solid rgb(60, 60, 60);
+    padding: 6px 13px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 550;
+    margin-right: 15px;
+}
+
+.profile {
+    height: 20px;
+    margin-right: 6px;
+}
